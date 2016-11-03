@@ -5,7 +5,7 @@ public class Number
 		public Number(int n)
 			{
 			number = n;
-
+			//place = p;???????? 
 			}	
 		public int getNumber()
 			{
