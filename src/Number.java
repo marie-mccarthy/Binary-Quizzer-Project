@@ -2,10 +2,11 @@
 public class Number
 	{
 		private int number;
-		public Number(int n)
+		private int place;
+		public Number(int n, int p)
 			{
 			number = n;
-			//place = p;???????? 
+			place = p; 
 			}	
 		public int getNumber()
 			{
@@ -14,6 +15,14 @@ public class Number
 		public void setNumber(int number)
 			{
 			this.number = number;
+			}
+		public int getPlace()
+			{
+			return place;
+			}
+	public void setPlace(int place)
+			{
+			this.place = place;
 			}
 		
 	}
